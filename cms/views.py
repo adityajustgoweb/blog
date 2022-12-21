@@ -9,7 +9,6 @@ def hello_world(request):
     return HttpResponse("hello")
     
 
-
 def all_pages(request):
     # Model.object.all() to 
     p = Page.objects.all()
